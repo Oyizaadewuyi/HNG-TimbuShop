@@ -21,4 +21,19 @@ h2 {
 .brands {
     background-color: transparent;
     color: #d19c75;
+    font-size: 24px;
+}
+
+@media (min-width:769px) and (max-width: 1024px) {
+    h2 {
+        font-size: 25px;
+    }
+
+
+.Hero-buttons {
+    padding: 20px 30px;
+    font-size:20px ;
+
+
+}
 }
