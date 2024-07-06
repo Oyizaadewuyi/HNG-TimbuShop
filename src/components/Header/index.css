@@ -90,10 +90,13 @@ button {
 
 .hamburger-menu .bar {
     width: 25px;
-    height: 3px;
-    background-color: white;
-    margin: 4px 0;
+    height: 1.5px;
+    background-color: #dfdfdf;
+    margin: 2px 0;
+    border: 1px  #dfdfdf solid;
+    border-radius: 2px;
 }
+
 
 /* Media Queries*/
 @media (max-width: 768px) {
@@ -101,13 +104,18 @@ button {
         padding: 5px 20px;
     }
 
-    nav .ul .li {
+    .main-nav .nav-links {
         display: none;
     }
 
     .hamburger-menu {
         display: flex;
     }
+
+    .hamburger-menu-content {
+        display: none;
+    }
+    
 }
 
 @media (min-width:769px) and (max-width: 1024px) {

@@ -8,6 +8,7 @@ const Header = () => {
   return (
 <header className="header">
 
+
 <div className='hamburger-menu'>
             <div className='bar'></div>
             <div className='bar'></div>
@@ -18,8 +19,9 @@ const Header = () => {
 
        
 
-    <nav>
-        <ul>
+    <nav
+    className='main-nav'>
+        <ul className='nav-links'>
             <li><a href="#HOME">Home</a></li>
             <li><a href="#About us">About us</a></li>
        
@@ -43,7 +45,9 @@ const Header = () => {
             {/* <ul className='SIGNUP'>
             <li><a href="signup">Sign Up</a></li>
         </ul> */}
+        <div className='hamburger-menu-content'>
         <button className='Signup'>Sign Up</button>
+        </div>
         </div>
 
        
