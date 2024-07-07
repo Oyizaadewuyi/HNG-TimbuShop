@@ -26,9 +26,12 @@ h2 {
     white-space: nowrap;
 }
 
-.active {
-    white-space: nowrap;
+.active{
+    padding: 8px 17px;
+    font-size: 24px;
 }
+
+
 
 @media (max-width: 768px) {
     h2 {
@@ -52,8 +55,7 @@ h2 {
     }
     .active {
         font-size: 16px;
-        padding: 8px 10px;
-        flex: 1 1 auto;
+         flex: 1 1 auto;
         text-align: center;
 
     }
@@ -90,6 +92,6 @@ h2 {
     }
     .brands {
         font-size: 24px;
-        padding: 14px 28px;
+       
     }
 }
