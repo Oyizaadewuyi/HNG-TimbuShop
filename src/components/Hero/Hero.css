@@ -16,12 +16,18 @@ h2 {
     align-items: center;
     gap: 50px;
     background-color: white;
+    flex-wrap: wrap;
 }
 
 .brands {
     background-color: transparent;
     color: #d19c75;
     font-size: 24px;
+    white-space: nowrap;
+}
+
+.active {
+    white-space: nowrap;
 }
 
 @media (max-width: 768px) {
@@ -32,17 +38,24 @@ h2 {
 
     .Hero-buttons {
         flex-direction: row;
-        gap: 20px;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 10px;
     }
 
     .brands {
-        font-size: 12px;
-        padding: 5px 25px;
+        font-size: 16px;
+        padding: 8px 10px;
+        flex: 1 1 auto;
+        text-align: center;
 
     }
     .active {
-        font-size: 13px;
-        padding: 10px 20px;
+        font-size: 16px;
+        padding: 8px 10px;
+        flex: 1 1 auto;
+        text-align: center;
+
     }
 }
 
