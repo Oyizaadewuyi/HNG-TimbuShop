@@ -125,7 +125,7 @@
     }
 
     .navbar {
-        width: 127.5%;
+        width: 150.5%;
          }
   
     .signup-button {
@@ -135,7 +135,7 @@
     .navbar-brand {
         text-align: center;
         margin-left: 15%;
-        font-size: 20px;
+        font-size: 25px;
     }
     
     .menu-icon {
@@ -148,8 +148,12 @@
     }
 
     .navbar-icons {
-      margin-left: 10%;  
+      margin-right: 5%;  
     }
+
+    /* .Link {
+      margin-right: -7%;
+    } */
   } 
 
 
