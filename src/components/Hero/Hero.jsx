@@ -8,7 +8,7 @@ const Hero = () => {
         <div className='Hero-buttons'>
         <button className='brands'>All Brands</button>
         <button className='active'>New Arrivals</button>
-        <button className='brands'> Offer Deals</button>
+        <button className='deals'> Offer Deals</button>
         </div>
       
     </div>
