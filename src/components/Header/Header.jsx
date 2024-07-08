@@ -1,12 +1,40 @@
-import React from 'react'
-import search from "../../assets/search-icon.svg"
-import cart from "../../assets/cart-icon.svg"
+// import React from 'react'
+// import search from "../../assets/search-icon.svg"
+// import cart from "../../assets/cart-icon.svg"
 import "./index.css";
+
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars, faSearch, faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 
 
 const Header = () => {
-  return (
-<header className="header">
+    return (
+      <nav className="navbar">
+        <div className="navbar-container">
+          <div className="menu-icon">
+            <FontAwesomeIcon icon={faBars} />
+          </div>
+          <div className="navbar-links">
+            <a href="#home">Home</a>
+            <a href="#about">About us</a>
+            <a href="#shop"><span>Shop</span></a>
+          </div>
+          <div className="navbar-brand">TimbuShop</div>
+          
+          <div className="navbar-icons">
+            <FontAwesomeIcon icon={faSearch} />
+            <FontAwesomeIcon icon={faShoppingCart} />
+          </div>
+          <button className="signup-button">Sign Up</button>
+        </div>
+      </nav>
+    );
+  };
+  
+  export default Header;
+  
+{/* <header className="header">
 
 
 <div className='hamburger-menu'>
@@ -45,13 +73,11 @@ const Header = () => {
             {/* <ul className='SIGNUP'>
             <li><a href="signup">Sign Up</a></li>
         </ul> */}
-        <div className='hamburger-menu-content'>
-        <button className='Signup'>Sign Up</button>
-        </div>
-        </div>
+        // <div className='hamburger-menu-content'>
+        // <button className='Signup'>Sign Up</button>
+        // </div>
+        // // </div>
 
        
-    </header>
-   )
-   }
-export default Header
+    // </header> 
+  
