@@ -18,7 +18,8 @@
     font-weight: 700;
     font-size: 35px;
     font-family: 'Kalam' ,sans-serif;
-    margin-left: 7%;
+    text-align: center;
+    margin-left: 15%;
   }
   
   .navbar-links {
@@ -50,7 +51,7 @@
     gap: 40px;
     font-size: 25px;
     color: #d19c75;
-    margin-left: 5%;
+    margin-left: 10%;
   }
   
   .signup-button {
@@ -58,7 +59,7 @@
     background-color: #D19C75;
     border: none;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
     font-size: 16px;
     margin-right: 10%;
@@ -77,6 +78,7 @@
     /* Medium screens (tablet) */
     .navbar-links {
       gap: 15px;
+      display: none;
     }
   
     .navbar-container {
@@ -84,18 +86,30 @@
     }
   
     .navbar-brand {
-      font-size: 25px;
-     }
+      font-size: 20px;
+       }
   
     .navbar-icons {
       font-size: 16px;
+      margin-left: 5%;
      }
   
     .signup-button {
-      padding: 8px 16px;
-      font-size: 16px;
-      margin-right: 2%;
+      padding: 8px 20px;
+      font-size: 12px;
+      margin-left: 5%;
+      display: none;
      }
+
+     .menu-icon {
+        display: block;
+        border-radius: 50%;
+        background-color: #D19C75;
+        border: 2px #D19C75 solid;
+        color: white;
+        padding: 5px 10px;
+      }
+  
   }
   
   
@@ -107,7 +121,7 @@
     }
 
     .navbar {
-        width: 128%;
+        width: 127.5%;
          }
   
     .signup-button {
@@ -130,7 +144,7 @@
     }
 
     .navbar-icons {
-        
+      margin-left: 10%;  
     }
   } 
 
