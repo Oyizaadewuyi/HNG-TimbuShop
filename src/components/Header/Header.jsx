@@ -10,18 +10,18 @@ import { faBars, faSearch, faShoppingCart } from '@fortawesome/free-solid-svg-ic
 
 const Header = () => {
     return (
-      <nav className="navbar">
+        <nav className="navbar">
         <div className="navbar-container">
           <div className="menu-icon">
             <FontAwesomeIcon icon={faBars} />
           </div>
+          
           <div className="navbar-links">
             <a href="#home">Home</a>
             <a href="#about">About us</a>
             <a href="#shop"><span>Shop</span></a>
           </div>
           <div className="navbar-brand">TimbuShop</div>
-          
           <div className="navbar-icons">
             <FontAwesomeIcon icon={faSearch} />
             <FontAwesomeIcon icon={faShoppingCart} />
@@ -31,6 +31,7 @@ const Header = () => {
       </nav>
     );
   };
+  
   
   export default Header;
   
