@@ -7,6 +7,8 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faSearch, faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 
+import { Link } from 'react-router-dom' ;
+
 
 const Header = () => {
     return (
@@ -17,14 +19,21 @@ const Header = () => {
           </div>
           
           <div className="navbar-links">
-            <a href="#home">Home</a>
-            <a href="#about">About us</a>
-            <a href="#shop"><span>Shop</span></a>
+            
+            <a href="#home">
+                <Link to="/">Home</Link>
+                </a>
+            <a href="#about">
+                <Link to="/">About us</Link>
+                </a>
+            <a href="#shop">
+                <Link to="/"><span>Shop</span></Link></a>
           </div>
           <div className="navbar-brand">TimbuShop</div>
           <div className="navbar-icons">
-            <FontAwesomeIcon icon={faSearch} />
-            <FontAwesomeIcon icon={faShoppingCart} />
+          <Link to="/Search" className="Link"> <FontAwesomeIcon icon={faSearch} /></Link>
+
+            <Link to="/AddToCart" className="Link"><FontAwesomeIcon icon={faShoppingCart} /> </Link>
           </div>
           <button className="signup-button">Sign Up</button>
         </div>

@@ -8,6 +8,7 @@ import facebook from '../../assets/images/facebook.png'
 
 const Footer = () => {
   return (
+
     <footer className='footer'>
     <div className="footer-section">
           <h3>TimbuShop</h3>
@@ -63,7 +64,8 @@ const Footer = () => {
     
     </footer>
 
-  )
+)
+  
 }
 
 export default Footer
