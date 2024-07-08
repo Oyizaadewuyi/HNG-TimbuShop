@@ -79,22 +79,22 @@ h2 {
     .brands {
         font-size: 13px;
         margin-right: 10px;
-        padding: 10px 10px;
-        margin-top: 5%;
+        padding: 7px 10px;
+        margin-top: 2%;
     }
     .deals {
-        font-size: 13px;
-        margin-right: 10px;
-        padding: 10px 10px;
-        margin-top: -7%;
+        font-size: 15px;
+        margin-right: 2px;
+        padding: 7px 20px;
+        margin-top: -10%;
     
     }
     .active{
         font-size: 13px;
         font-weight: 500;
         margin-left: -2%;
-        margin-top: 5%;
-        padding: 10px 10px;
+        margin-top: -2%;
+        padding: 7px 10px;
     }
 }
 /* @media (max-width: 768px) {
