@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../components/Header/Header'
  import Hero from '../components/Hero/Hero'
-import ProductPage from '../components/Product/ProductPage'
+// import ProductPage from '../components/Product/ProductPage'
 import { TimbuAddToCart } from './TimbuAddToCart/TimbuAddToCart'
 import Footer from '../components/Footer/Footer'
 // import Footer from '../components/Footer/Footer'
@@ -11,7 +11,7 @@ export function TimbuLanding() {
     <div id="top-page">
     <Header/>
     <Hero/>
-    <ProductPage/>
+    {/* <ProductPage/> */}
     <Footer/>
 
     
