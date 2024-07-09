@@ -67,12 +67,12 @@ h2 {
     h2 {
         font-weight: 700;
           text-align: center;
-          margin-right: -55%;
+         margin-right: -90%;
     }
 
     .Hero-buttons {
-        margin-right: -55%;
-        font-size: 20px;
+        margin-right: -90%;
+        font-size: 15px;
         font-weight: 500;
         
     }
@@ -91,10 +91,10 @@ h2 {
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-    h2 {
+    /* h2 {
         font-size: 50px;
         align-items: center;
-        margin-right: -30%;
+        margin-left: 35%;
     }
 
     .brands {
@@ -116,7 +116,19 @@ h2 {
     }
 
     .Hero-buttons {
-        margin-right: -30%;
+       margin-left: 40%;
     }
+     */
 }
+
+/* @media (min-width:820px) and (max-height:1180px) {
+    h2 {
+        margin-right: -3%;
+    }
+
+    .Hero-buttons {
+        margin-right: -5%;
+
+    }
+} */
 

@@ -8,10 +8,10 @@ export function TimbuLanding() {
   return (
     <div id="top-page">
     <Header/>
-    <Hero/>
+    {/* <Hero/>
     <ProductPage/>
     <Footer/>
-    
+     */}
     </div>
 
     )

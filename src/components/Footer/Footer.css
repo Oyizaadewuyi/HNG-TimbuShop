@@ -67,7 +67,7 @@ body {
         justify-content: center;
          align-items: center;
         text-align: start; 
-        width: 150%;
+        width: 160%;
     }
      .footer-section {
     flex: 0 1 50%;
@@ -88,6 +88,12 @@ body {
     }
     .social-icons {
         justify-content: center;
+    }
+  }
+
+  @media (min-width:769px) and (max-width: 1024px) {
+    .footer-section {
+      text-align: center;
     }
   }
    
