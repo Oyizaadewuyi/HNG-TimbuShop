@@ -52,20 +52,9 @@ const Footer = () => {
             <li>Timbushop@gmail.com</li>
             <li>Lagos Island, Nigeria</li>
           </ul>
+ 
         </div>
-
-        {/* <div className="social-icons">
-           <img src={whatsapp} alt="" />
-           <img src={instagram} alt="" />
-           <img src={facebook} alt="" />
-         
-          </div>
-     */}
-    
-    </footer>
-
-)
-  
+        </footer>
+  )
 }
-
 export default Footer

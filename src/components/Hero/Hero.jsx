@@ -1,14 +1,14 @@
 import React from 'react'
-import './Hero.css'
+import style from './style.module.css'
 
 const Hero = () => {
   return (
-    <div className='Hero-section'>
+    <div className={style.Hero}>
         <h2>Shop with us here</h2>
-        <div className='Hero-buttons'>
-        <button className='brands'>All Brands</button>
-        <button className='active'>New Arrivals</button>
-        <button className='deals'> Offer Deals</button>
+        <div className={style.button}>
+        <button className={style.brands}>All Brands</button>
+        <button className={style.active}>New Arrivals</button>
+        <button className={style.brands}> Offer Deals</button>
         </div>
       
     </div>

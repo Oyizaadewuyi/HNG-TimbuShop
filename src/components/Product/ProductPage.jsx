@@ -81,12 +81,12 @@ const ProductPage = () => {
                 <span key={size}>{size}</span>
               ))}
             </div>
-            <p>{product.price}</p>
+            <p className='price'>{product.price}</p>
             <div className="quantityCart">
                 <div className='quantity'>
-                <button className='plus'>-</button>
+                <button >-</button>
               <span>1</span>
-              <button className='minus'>+</button>
+              <button >+</button>
               
                 </div>
               <button className="add-to-cart">Add to cart</button>

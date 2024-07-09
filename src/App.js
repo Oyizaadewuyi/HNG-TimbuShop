@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route,} from "react-router-dom";
 // import Footer from "./components/Header/Footer/Footer";
 // import ProductPage from "./components/Product/ProductPage"
 import TimbuLanding from "./pages/TimbuLanding";
-import AddToCart from "./pages/AddToCart/AddToCart";
+// import ShoppingCartPage from "./pages/ShoppingCartPage/ShoppingCartPage";
 
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route index element={<TimbuLanding />} />
-          <Route path="Addtocart" element={<AddToCart />} />
+           {/* <Route path="Shoppingcart" element={<ShoppingCartPage />} /> */}
         </Routes>
 			</BrowserRouter>
 		</div>

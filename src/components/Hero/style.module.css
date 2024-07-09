@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    color: #9e6236;
+    font-size: 45px;
+    font-family: 'Montserrat' ,sans-serif;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 60px;
+    font-weight: 500;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: white;
+
+   
+
+}
+
+.brands {
+    background-color: transparent;
+    color: #d19c75;
+    font-family: 'Montserrat', sans-serif;
+    padding: 7px 10px;
+    font-size: 16px;
+    
+    border: 1px solid #d19c75;
+    border-radius: 5px;
+}
+.active {
+    background-color: #d19c75;
+    color: #f6f6f6;
+    font-family: 'Montserrat', sans-serif;
+    padding: 7px 10px;
+    font-size: 16px;
+   
+    border: 1px solid #d19c75;
+    border-radius: 5px;
+}
+
+@media (max-width:768px) {
+    h2 {
+        
+          text-align: center;
+          font-size: 25px;
+          margin-left: 85px;
+        
+    }
+
+    .button {
+        
+        margin-top: 50px;
+        margin-left: 30%;
+        gap: 35px;
+          }
+
+          .brands {
+            font-size: 15px;
+            padding: 3px 20px;
+            flex-wrap: nowrap;
+          }
+
+          .active{
+            font-size: 15px;
+            padding: 5px 20px;
+            
+          }
+    /* .Hero-buttons {
+        margin-right: -90%;
+        font-size: 15px;
+        font-weight: 500;
+        
+    }
+
+    .brands {
+        font-size: 13px;
+    } */
+}
