@@ -31,7 +31,7 @@ const Header = () => {
           </div>
           <div className="navbar-brand">TimbuShop</div>
           <div className="navbar-icons">
-           <FontAwesomeIcon icon={faSearch} />
+           <FontAwesomeIcon className="search" icon= {faSearch} />
 
             <Link to="/AddToCart" className="Link"><FontAwesomeIcon icon={faShoppingCart} /> </Link>
           </div>

@@ -75,6 +75,9 @@ body {
   color: #D19C75;
  
 }
+.search {
+  margin-top: 5%;
+}
 
 .signup-button {
   color: #F6F6F6;
@@ -126,6 +129,10 @@ body {
   .Link {
     font-size: 20px;
     margin-left: -30%;
+  }
+
+  .search {
+    font-size: 20px;
   }
 
   
