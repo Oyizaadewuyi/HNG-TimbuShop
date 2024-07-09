@@ -46,41 +46,61 @@ h2 {
     border-radius: 5px;
 }
 
-@media (max-width:768px) {
+
+@media(min-width:320px) and (max-width:480px){
     h2 {
-        
-          text-align: center;
-          font-size: 25px;
-          margin-left: 85px;
-        
+        text-align: center;
+        font-size: 25px;
     }
 
-    .button {
-        
-        margin-top: 50px;
-        margin-left: 30%;
-        gap: 35px;
-          }
-
-          .brands {
-            font-size: 15px;
-            padding: 3px 20px;
-            flex-wrap: nowrap;
-          }
-
-          .active{
-            font-size: 15px;
-            padding: 5px 20px;
-            
-          }
-    /* .Hero-buttons {
-        margin-right: -90%;
-        font-size: 15px;
-        font-weight: 500;
-        
+    .button{
+        gap: 15px;
     }
 
     .brands {
-        font-size: 13px;
-    } */
+        font-size: 12px;
+    }
+
+    .active {
+        font-size: 12px;
+        }
 }
+
+
+@media(min-width:481px) and (max-width:768px){
+    h2 {
+        font-size: 35px;
+    }
+}
+
+@media(min-width:769px) and (max-width:1024px){
+    h2 {
+        font-size: 50px;
+    }
+
+    .brands {
+        padding: 10px 30px;   
+     }
+
+     .active{
+        padding: 10px 30px;   
+    
+
+     }
+}
+
+@media(min-width:1025px) and (max-width:1200px){
+    h2 { 
+        font-size: 65px;
+}
+
+.brands {
+    padding: 10px 30px;   
+ }
+
+ .active{
+    padding: 10px 30px;   
+ }
+}
+
+
