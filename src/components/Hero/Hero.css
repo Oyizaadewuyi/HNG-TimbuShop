@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .Hero {
     background-color: #ebe5e5;
 }
@@ -66,11 +71,6 @@ h2 {
     }
 
     .Hero-buttons {
-        /* display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: 30%;
-        */
         margin-right: -55%;
         font-size: 20px;
         font-weight: 500;
@@ -88,5 +88,35 @@ h2 {
         font-size: 13px;
         font-weight: 500;
          }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    h2 {
+        font-size: 50px;
+        align-items: center;
+        margin-right: -30%;
+    }
+
+    .brands {
+        font-size: 20px;
+        border-radius: 10px;
+        padding: 10px 15px;
+    }
+
+    .active {
+        font-size: 20px;
+        border-radius: 10px;
+        padding: 10px 15px;
+    }
+    .deals {
+        font-size: 20px;
+        border-radius: 10px;
+        padding: 10px 15px;
+   
+    }
+
+    .Hero-buttons {
+        margin-right: -30%;
+    }
 }
 
