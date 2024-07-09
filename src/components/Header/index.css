@@ -1,8 +1,12 @@
-body {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: montserrat;
 }
+
 .navbar {
   padding: 10px 20px;
   background-color: #ECECEC;
@@ -87,162 +91,155 @@ body {
  
 }
 
-@media(min-width:320px) and (max-width:480px){
-  .navbar-links {
-    display: none;
-  }
+@media screen and (max-width: 1200px) {
 
-  .signup-button {
-    display: none;
-  }
+} */
 
-  .menu-icon {
-    display: block;
-    border-radius: 50%;
-    background-color: #D19C75;
-    border: 2px #D19C75 solid;
-    color: white;
-    padding: 3px 6px;
-    font-size: 15px;
-  }
-
-  .navbar-brand {
-    text-align: center;
-   
-    font-size: 20px;
-    margin-left: 23%;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ECECEC;
+  padding: 2% 5%;
+  position: relative;
+  z-index: 1;
 }
 
-.navbar-icons {
-  font-size: 15px;
-  gap: 10px;
-}
-
- 
-}
-
-
-@media(min-width:481px) and (max-width:768px){
-  .navbar-links {
-   
-      display: none;
-    }
-  
-    .signup-button {
-      display: none;
-    }
-  
-    .menu-icon {
-      display: block;
-      border-radius: 50%;
-      background-color: #D19C75;
-      border: 2px #D19C75 solid;
-      color: white;
-      padding: 5px 10px;
-      font-size: 20px;
-    }
-
-    .navbar-icons {
-      gap: 20px;
-    }
-    .navbar-brand{
-      font-size: 25px;
-      text-align: center;
-      margin-left: 22%;
-    }
+.left-menu {
+  width: 24%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: -1;
+  transition: top ease-in-out .5s;
   
 }
 
- 
+.left-menu li {
+  color: #D19C75;
+  font-size: 18px;
+  list-style-type: none;
+}
 
-/* @media (max-width: 1024px) {
-   
-  .navbar-links {
-    gap: 15px;
-    display: none;
-  }
 
-  .navbar-container {
-    padding: 10px;
-  }
+.nav-brand {
+  color: #9E6236;
+  user-select: none;
+  font-family: kalam;
+}
 
-  .navbar-brand {
-    font-size: 20px;
-     }
-
-  .navbar-icons {
-    font-size: 16px;
-    margin-right: 10%;
-   }
-
-  .signup-button {
-    padding: 8px 20px;
-    font-size: 12px;
-    margin-left: 5%;
-    display: none;
-   }
-
-   .menu-icon {
-      display: block;
-      border-radius: 50%;
-      background-color: #D19C75;
-      border: 2px #D19C75 solid;
-      color: white;
-      padding: 5px 10px;
-    }
-.Link {
+.right-icons {
+  width: 18%;
+  display: flex;
+  align-items: center;
+  gap: 70px;
   margin-right: -10%;
+
 }
-}  */ 
 
-
-
-
-
-
+.Link {
+  color: #D19C75;
   
-  @media (min-width:769px) and (max-width: 1024px) {
-    .navbar-links a{
-      font-size: 15px;
-      margin-left: -10%;
-      
-    }
+}
 
-    .navbar-links{
-      gap: 35px;
-    }
+.signup-button{
+  color: #ECECEC;
+  background-color: #D19C75;
+  font-size: 18px;
+  padding: 4px 16px;
+  border-radius: 6px;
+  border: 1px solid #D19C75;
+}
 
-    .navbar-brand {
-      font-size: 30px;
-      text-align: center;
-      margin-left: -5%;
-    }
+.menu-icon {
+  display: none;
+}
 
-    .navbar-icons{
-      gap: 10px;
-      font-size: 17px;
-    }
-
-    .signup-button {
-      font-size: 10px;
-      margin-left: 20px;
-      }
-    
-} 
-
-@media(min-width:1025px) and (max-width:1200px){
-  .navbar-links a {
-    margin-left: -5%;
+@media screen and (max-width: 1200px) {
+  nav {
+    padding: 2% 4%;
   }
 
-  .signup-button {
-    margin-right: -2%;
-    padding: 7px 15px;
+  .left-menu {
+    width: 28%;
   }
 
-  .navbar-icons {
-    margin-right: 4%;
+  .right-icons {
+    width: 22%;
+  }
+}
+  @media screen and (max-width: 992px) {
+.left-menu {
+      width: 30%;
+    }
+  
+.right-icons {
+      width: 24%;
+    }
+  
+}
+
+@media screen and (max-width: 576px) {
+.right-icons {
+    width: 16%;
   }
 }
 
- 
+@media screen and (max-width: 430px) {
+  .right-icons {
+    width: 18%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  nav {
+    padding: 4% 6%;
+  }
+
+  nav .menu {
+    display: block;
+  }
+
+  .left-menu {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    display: block;
+    padding-top: 12px;
+    background-color: #ECECEC;
+  }
+
+.left-menu li {
+    text-align: center;
+    margin-bottom: 14px;
+  }
+
+.left-menu a {
+    font-size: 20px;
+  }
+
+  .right-icons {
+    width: 14%;
+    align-items: initial;
+  }
+
+    
+  
+
+.signup-button {
+  display: none; }
+}
+
+@media screen and (max-width: 768px) {
+.left-menu {
+    width: 36%;
+  }
+
+.right-icons {
+    width: 28%;
+  }
+}
+
+
+
+

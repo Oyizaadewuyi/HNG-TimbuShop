@@ -12,32 +12,59 @@ import { Link } from 'react-router-dom' ;
 
 const Header = () => {
     return (
-        <nav className="navbar">
-        <div className="navbar-container">
-          <div className="menu-icon">
-            <FontAwesomeIcon icon={faBars} />
+
+      <nav>
+            {/* <i className="ri-menu-line menu" onClick={() => toggleMenu()}></i> */}
+
+            <div className="menu-icon">
+             <FontAwesomeIcon icon={faBars} />
           </div>
           
-          <div className="navbar-links">
-            
-            <a href="#home">
-                <Link to="/">Home</Link>
-                </a>
-            <a href="#about">
-                <Link to="/">About us</Link>
-                </a>
-            <a href="#shop">
-                <Link to="/"><span>Shop</span></Link></a>
-          </div>
-          <div className="navbar-brand">TimbuShop</div>
-          <div className="navbar-icons">
-          <Link to="/AddToCart" className="Link">  <FontAwesomeIcon icon= {faSearch} /></Link>
 
-            <Link to="/AddToCart" className="Link"><FontAwesomeIcon icon={faShoppingCart} /> </Link>
-          </div>
-          <button className="signup-button">Sign Up</button>
-        </div>
-      </nav>
+            <ul className="left-menu">
+                <li>Home</li>
+                <li>About us</li>
+                <li><span>Shop</span></li>
+            </ul>
+
+            <h1 className="nav-brand">Timbushop</h1>
+            
+            <div className="right-icons">
+            <Link to="/AddToCart" className="Link">  <FontAwesomeIcon icon= {faSearch} /></Link>
+
+       <Link to="/ShoppingCart" className="Link"><FontAwesomeIcon icon={faShoppingCart} /> </Link>
+     </div>     <button className="signup-button">Sign Up</button>
+                {/* <i className="ri-search-line"></i>
+                <Link to="cart"><i className="ri-shopping-cart-2-line"></i></Link>
+                <Link to="/" className="signup">Sign up</Link> */}
+            
+        </nav>
+      //   <nav className="navbar">
+      //   <div className="navbar-container">
+      //     <div className="menu-icon">
+      //       <FontAwesomeIcon icon={faBars} />
+      //     </div>
+          
+      //     <div className="navbar-links">
+            
+      //       <a href="#home">
+      //           <Link to="/">Home</Link>
+      //           </a>
+      //       <a href="#about">
+      //           <Link to="/">About us</Link>
+      //           </a>
+      //       <a href="#shop">
+      //           <Link to="/"><span>Shop</span></Link></a>
+      //     </div>
+      //     <div className="navbar-brand">TimbuShop</div>
+      //     <div className="navbar-icons">
+      //     <Link to="/AddToCart" className="Link">  <FontAwesomeIcon icon= {faSearch} /></Link>
+
+      //       <Link to="/ShoppingCart" className="Link"><FontAwesomeIcon icon={faShoppingCart} /> </Link>
+      //     </div>
+      //     <button className="signup-button">Sign Up</button>
+      //   </div>
+      // </nav>
     );
   };
   
