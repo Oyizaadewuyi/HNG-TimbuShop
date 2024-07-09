@@ -92,7 +92,7 @@ body {
  
 }
 
-@media (max-width: 768px) {
+@media (min-width:360px)and (max-width: 768px) {
     
   .navbar-links {
     display: none;
